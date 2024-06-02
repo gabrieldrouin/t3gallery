@@ -4,4 +4,15 @@
 
 body {
   @apply bg-black text-white;
+  font-family: var(--font-sans);
+}
+
+/* styles/globals.css */
+:root {
+  --font-sans: "Inter", sans-serif;
+}
+
+/* Debugging CSS to ensure styles are applied */
+html {
+  font-family: var(--font-sans);
 }

@@ -1,3 +1,4 @@
+import { SignedOut } from "@clerk/nextjs";
 import { desc } from "drizzle-orm";
 import { db } from "~/server/db";
 export const dynamic = "force-dynamic";

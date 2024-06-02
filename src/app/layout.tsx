@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <ClerkProvider>
       <html lang="en">
-        <NextSSRPlugin routerConfig={extractRouterConfig(ourFileRouter)} />
+        {/* <NextSSRPlugin routerConfig={extractRouterConfig(ourFileRouter)} /> */}
         <body
           className={`font-sans ${GeistSans.className} flex flex-col gap-4`}
         >
